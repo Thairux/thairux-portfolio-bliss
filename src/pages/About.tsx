@@ -5,7 +5,7 @@ const About: React.FC = () => {
     <div className="container mx-auto px-6 py-12">
       <h1 className="text-3xl font-bold mb-8 text-center text-gray-800 dark:text-white">About Me</h1>
       <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-8">
-        <img src="/profile-photo.jpg" alt="Your Name" className="rounded-full w-32 h-32 mx-auto mb-6 object-cover" />
+        <img src="/Profile-picture.jpeg" alt="Your Name" className="rounded-full w-32 h-32 mx-auto mb-6 object-cover" />
         <p className="text-gray-600 dark:text-gray-300 mb-6">
           Hello! I'm Peter Thairu Muigai , a passionate full stack developer.
           I specialize in building robust and scalable solutions using modern technologies and best practices.
