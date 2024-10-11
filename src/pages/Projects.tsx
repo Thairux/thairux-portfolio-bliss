@@ -10,29 +10,7 @@ interface Project {
 }
 
 const projects: Project[] = [
-  {
-    id: 1,
-    title: "E-commerce Platform",
-    description: "A full-stack e-commerce solution with user authentication, product management, and payment integration.",
-    technologies: ["React", "Node.js", "Express", "MongoDB", "Stripe"],
-    githubUrl: "https://github.com/yourusername/ecommerce-platform",
-    demoUrl: "https://demo-ecommerce.example.com"
-  },
-  {
-    id: 2,
-    title: "Task Management App",
-    description: "A collaborative task management application with real-time updates and team features.",
-    technologies: ["React", "Firebase", "Material-UI", "Redux"],
-    githubUrl: "https://github.com/yourusername/task-management-app",
-  },
-  {
-    id: 3,
-    title: "Weather Dashboard",
-    description: "A responsive weather dashboard that provides real-time weather information and forecasts.",
-    technologies: ["Vue.js", "OpenWeatherMap API", "Chart.js", "Axios"],
-    githubUrl: "https://github.com/yourusername/weather-dashboard",
-    demoUrl: "https://weather-dash.example.com"
-  }
+//projecst go here
 ];
 
 const Projects: React.FC = () => {

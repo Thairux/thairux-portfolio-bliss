@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useMutation } from '@tanstack/react-query';
+import PropTypes from 'prop-types';
 
 interface ContactFormData {
   name: string;
@@ -14,7 +15,7 @@ const Contact: React.FC = () => {
     message: '',
   });
 
-  const mutation = useMutation({
+  const mutation = useMutation<void, Error, ContactFormData>({
     mutationFn: (data: ContactFormData) =>
       fetch('/api/contact', {
         method: 'POST',
@@ -100,6 +101,10 @@ const Contact: React.FC = () => {
       </div>
     </div>
   );
+};
+
+Contact.propTypes = {
+  // Add prop types if needed
 };
 
 export default Contact;
