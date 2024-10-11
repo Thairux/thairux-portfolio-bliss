@@ -12,7 +12,9 @@ interface BlogPost {
 // 1. Create a new object in the `blogPosts` array below
 // 2. Fill in the details: id, title, excerpt, and date
 // 3. The new blog post will automatically appear on the page
-// 4. For the full blog post content, you'll need to create a new route and component
+// 4. Create a new file in the `src/content/blog` directory with the same name as the blog post's id (e.g., `1.md` for id: 1)
+// 5. Write your full blog post content in Markdown format in the new file
+// 6. Update the `blogPosts` array in the BlogPost.tsx component with the full content
 const blogPosts: BlogPost[] = [
   // Example blog post (uncomment and modify as needed):
   // {
