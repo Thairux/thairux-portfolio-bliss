@@ -8,8 +8,20 @@ interface BlogPost {
   date: string;
 }
 
+// To add a new blog post:
+// 1. Create a new object in the `blogPosts` array below
+// 2. Fill in the details: id, title, excerpt, and date
+// 3. The new blog post will automatically appear on the page
+// 4. For the full blog post content, you'll need to create a new route and component
 const blogPosts: BlogPost[] = [
-//blogs go here
+  // Example blog post (uncomment and modify as needed):
+  // {
+  //   id: 1,
+  //   title: "My First Blog Post",
+  //   excerpt: "This is a short preview of my amazing blog post...",
+  //   date: "2023-03-15"
+  // },
+  // Add more blog posts here...
 ];
 
 const Blog: React.FC = () => {

@@ -9,8 +9,21 @@ interface Project {
   demoUrl?: string;
 }
 
+// To add a new project:
+// 1. Create a new object in the `projects` array below
+// 2. Fill in the details: id, title, description, technologies, githubUrl, and optionally demoUrl
+// 3. The new project will automatically appear on the page
 const projects: Project[] = [
-//projecst go here
+  // Example project (uncomment and modify as needed):
+  // {
+  //   id: 1,
+  //   title: "My Awesome Project",
+  //   description: "This project does amazing things with cutting-edge tech.",
+  //   technologies: ["React", "Node.js", "MongoDB"],
+  //   githubUrl: "https://github.com/yourusername/awesome-project",
+  //   demoUrl: "https://awesome-project-demo.com"
+  // },
+  // Add more projects here...
 ];
 
 const Projects: React.FC = () => {
