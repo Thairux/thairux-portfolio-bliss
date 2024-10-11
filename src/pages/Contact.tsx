@@ -1,21 +1,16 @@
 import React, { useState } from 'react';
 import { useMutation } from '@tanstack/react-query';
+import PropTypes from 'prop-types';
 
-interface ContactFormData {
-  name: string;
-  email: string;
-  message: string;
-}
-
-const Contact: React.FC = () => {
-  const [formData, setFormData] = useState<ContactFormData>({
+const Contact = () => {
+  const [formData, setFormData] = useState({
     name: '',
     email: '',
     message: '',
   });
 
   const mutation = useMutation({
-    mutationFn: (data: ContactFormData) =>
+    mutationFn: (data) =>
       fetch('/api/contact', {
         method: 'POST',
         headers: {
@@ -32,12 +27,12 @@ const Contact: React.FC = () => {
     },
   });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({ ...prevData, [name]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     mutation.mutate(formData);
   };
@@ -100,6 +95,10 @@ const Contact: React.FC = () => {
       </div>
     </div>
   );
+};
+
+Contact.propTypes = {
+  // Add prop types if needed
 };
 
 export default Contact;
