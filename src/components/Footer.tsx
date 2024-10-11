@@ -2,8 +2,8 @@ import React from 'react';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-white dark:bg-gray-800 shadow-md mt-8">
-      <div className="container mx-auto px-4 py-4">
+    <footer className="bg-white dark:bg-gray-800 shadow-md mt-8 w-full">
+      <div className="container mx-auto px-4 py-4 max-w-full">
         <div className="flex flex-col sm:flex-row justify-between items-center">
           <p className="text-gray-600 dark:text-gray-300 text-sm mb-2 sm:mb-0">© 2023 Thairux. All rights reserved.</p>
           <div className="flex items-center space-x-4">
