@@ -7,26 +7,24 @@ const About: React.FC = () => {
       <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-8">
         <img src="/profile-photo.jpg" alt="Your Name" className="rounded-full w-32 h-32 mx-auto mb-6 object-cover" />
         <p className="text-gray-600 dark:text-gray-300 mb-6">
-          Hello! I'm [Your Name], a passionate full stack developer with over [X] years of experience in creating web applications. 
+          Hello! I'm Peter Thairu Muigai , a passionate full stack developer.
           I specialize in building robust and scalable solutions using modern technologies and best practices.
         </p>
         <p className="text-gray-600 dark:text-gray-300 mb-6">
-          My journey in software development began [brief story about how you started]. Since then, I've worked on a variety of projects, 
-          from small startups to large enterprise applications, always striving to deliver high-quality code and exceptional user experiences.
+          My journey in software development began in 2019 at SEKU university . Since then,I have joine Kabarak University. 
+          I always striving to deliver high-quality code and exceptional user experiences.
         </p>
         <h2 className="text-2xl font-semibold mb-4 text-gray-800 dark:text-white">Experience</h2>
         <ul className="list-disc list-inside mb-6 text-gray-600 dark:text-gray-300">
-          <li>Full Stack Developer at [Company Name] (20XX - Present)</li>
-          <li>Frontend Developer at [Company Name] (20XX - 20XX)</li>
-          <li>Freelance Web Developer (20XX - 20XX)</li>
+        <li>Freelance Web Developer (since 2022 )</li>
         </ul>
         <h2 className="text-2xl font-semibold mb-4 text-gray-800 dark:text-white">Education</h2>
         <p className="text-gray-600 dark:text-gray-300 mb-6">
-          Bachelor's Degree in Computer Science from [University Name] (Graduated: 20XX)
+          Studying for Bachelor's Degree in Computer Science from Kabarak University 
         </p>
         <h2 className="text-2xl font-semibold mb-4 text-gray-800 dark:text-white">Interests</h2>
         <p className="text-gray-600 dark:text-gray-300">
-          When I'm not coding, you can find me [list some of your hobbies or interests]. I'm always eager to learn new technologies 
+          When I'm not coding, you can find me Gaming , Hiking and Reading novels and manga . I'm always eager to learn new technologies 
           and contribute to open-source projects in my free time.
         </p>
       </div>

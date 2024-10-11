@@ -7,14 +7,14 @@ const Footer: React.FC = () => {
         <div className="flex justify-between items-center">
           <p className="text-gray-600 dark:text-gray-300">© 2023 Thairux. All rights reserved.</p>
           <div className="flex items-center">
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-white mx-2">
+            <a href="https://github.com/Thairux" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-white mx-2">
               GitHub
             </a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-white mx-2">
+            <a href="https://linkedin.com/in/peter-muigai-5518412a9" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-white mx-2">
               LinkedIn
             </a>
-            <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-white mx-2">
-              Twitter
+            <a href="https://x.com/Peterptm1" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-white mx-2">
+              X
             </a>
           </div>
         </div>

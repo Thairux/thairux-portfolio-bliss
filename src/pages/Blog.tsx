@@ -9,24 +9,7 @@ interface BlogPost {
 }
 
 const blogPosts: BlogPost[] = [
-  {
-    id: 1,
-    title: "Getting Started with React Hooks",
-    excerpt: "Learn how to use React Hooks to manage state and side effects in your functional components.",
-    date: "2023-05-15"
-  },
-  {
-    id: 2,
-    title: "Building RESTful APIs with Node.js and Express",
-    excerpt: "A comprehensive guide to creating robust and scalable RESTful APIs using Node.js and Express.",
-    date: "2023-04-22"
-  },
-  {
-    id: 3,
-    title: "Introduction to TypeScript for JavaScript Developers",
-    excerpt: "Discover the benefits of TypeScript and how it can improve your JavaScript development workflow.",
-    date: "2023-03-10"
-  }
+//blogs go here
 ];
 
 const Blog: React.FC = () => {

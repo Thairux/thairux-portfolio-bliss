@@ -11,7 +11,7 @@ const Home: React.FC = () => {
         <div className="md:w-1/2 text-center md:text-left">
           <h1 className="text-4xl font-bold mb-4 text-gray-800 dark:text-white">Welcome to Thairux</h1>
           <p className="text-xl mb-6 text-gray-600 dark:text-gray-300">
-            Hi, I'm [Your Name], a passionate full stack developer with expertise in modern web technologies.
+            Hi, I'm Peter Thairu Muigai, a passionate full stack developer with expertise in modern web technologies.
           </p>
           <div className="mb-8">
             <h2 className="text-2xl font-semibold mb-4 text-gray-800 dark:text-white">Skills</h2>
